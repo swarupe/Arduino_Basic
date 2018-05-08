@@ -1,16 +1,3 @@
-/*
-Arduino Turn LED On/Off using Serial Commands
-Created April 22, 2015
-Hammad Tariq, Incubator (Pakistan)
-
-It's a simple sketch which waits for a character on serial
-and in case of a desirable character, it turns an LED on/off.
-
-Possible string values:
-a (to turn the LED on)
-b (tor turn the LED off)
-*/
-
 char junk;
 String inputString="";
 
